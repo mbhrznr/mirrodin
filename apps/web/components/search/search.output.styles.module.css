@@ -1,0 +1,36 @@
+.output {
+  animation: fade 0.2s;
+  background-color: var(--theme-surface);
+  border: 1px solid var(--theme-border);
+  border-radius: 0.25rem;
+  display: block;
+  margin: 0.25rem 0;
+  min-height: 3.25rem;
+  position: relative;
+  width: 100%;
+}
+
+.output a {
+  display: grid;
+  grid-template-columns: 3.25rem auto;
+  font-size: 1.25rem;
+  line-height: 3.25rem;
+  height: 3.25rem;
+}
+
+.output a:not(:last-child), .output a:not(:focus) {
+  border-bottom: 1px solid var(--theme-border);
+}
+
+.output a:hover svg {
+  fill: var(--theme-accent);
+}
+
+.svg {
+  fill: var(--theme-text);
+  margin: 0.625rem;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+

@@ -1,0 +1,20 @@
+.a {
+  text-decoration: none;
+}
+
+.a:hover,
+.a[aria-current='true'] {
+  text-decoration: underline;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7.5vw;
+}
+
+.nav div {
+  display: flex;
+  gap: 0.5rem;
+}

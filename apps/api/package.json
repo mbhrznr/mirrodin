@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./main.ts",
+    "lint": "eslint \"./**/*.ts*\"",
+    "start": "tsx ./main.ts"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "gray-matter": "4.0.3",
+    "minio": "7.1.0",
+    "morgan": "1.10.0",
+    "redis": "4.6.6",
+    "remark": "14.0.2",
+    "remark-gfm": "3.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.13",
+    "@types/express": "4.17.17",
+    "@types/minio": "7.0.18",
+    "@types/morgan": "1.9.4",
+    "@types/node": "20.1.0",
+    "eslint": "8.40.0",
+    "eslint-config-custom": "*",
+    "nodemon": "2.0.22",
+    "supertest": "6.3.3",
+    "tsconfig": "*",
+    "tsx": "3.12.7",
+    "typescript": "5.0.4"
+  }
+}

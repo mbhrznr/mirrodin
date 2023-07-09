@@ -1,0 +1,32 @@
+{
+  "elements": {
+    "code": {
+      "lang": {
+        "alias": "l",
+        "type": "TEXT"
+      },
+      "value": {
+        "alias": "c",
+        "type": "TEXT"
+      }
+    },
+    "heading": {
+      "value": {
+        "alias": "h",
+        "type": "TEXT"
+      }
+    },
+    "paragraph": {
+      "value": {
+        "alias": "p",
+        "type": "TEXT"
+      }
+    }
+  },
+  "frontmatter": {
+    "description": {
+      "alias": "d",
+      "type": "TEXT"
+    }
+  }
+}

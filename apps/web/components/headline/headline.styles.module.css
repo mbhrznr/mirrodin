@@ -1,0 +1,28 @@
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 2.25rem auto;
+  margin-left: -2.75rem;
+}
+
+.h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+  align-items: center;
+  display: flex;
+  visibility: hidden;
+}
+
+.h1 svg, .h2 svg, .h3 svg, .h4 svg, .h5 svg, .h6 svg {
+  fill: var(--theme-text);
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.h1 svg:hover, .h2 svg:hover, .h3 svg:hover, .h4 svg:hover, .h5 svg:hover, .h6 svg:hover {
+  fill: var(--theme-accent);
+}
+
+.h1:hover a, .h2:hover a, .h3:hover a, .h4:hover a, .h5:hover a, .h6:hover a {
+  visibility: visible;
+}

@@ -1,0 +1,6 @@
+.code {
+  border: 1px solid var(--theme-border);
+  border-radius: 0.25rem;
+  padding: 0.125rem;
+}
+

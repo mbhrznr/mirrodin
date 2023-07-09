@@ -1,0 +1,7 @@
+.div {
+  border: 1px solid var(--theme-border);
+  border-radius: 0.25rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  position: relative;
+}

@@ -1,0 +1,27 @@
+.pre {
+  position: relative;
+}
+
+.pre:hover svg {
+  display: block;
+}
+
+.svg {
+  animation: fade 0.2s;
+  background: var(--theme-surface);
+  border: 1px solid var(--theme-border);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: none;
+  fill: var(--theme-text);
+  height: 2rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.25rem;
+  width: 2rem;
+}
+
+.svg:hover {
+  fill: var(--theme-accent);
+}

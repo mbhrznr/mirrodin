@@ -1,0 +1,15 @@
+.form {
+  position: relative;
+}
+
+.form > a {
+  border-radius: 0.25rem;
+  height: 3.25rem;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.form > a svg {
+  height: 3.25rem;
+}

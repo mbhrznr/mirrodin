@@ -1,0 +1,8 @@
+.header {
+  background: var(--theme-header);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--theme-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}

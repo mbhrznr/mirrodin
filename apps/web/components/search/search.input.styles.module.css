@@ -1,0 +1,11 @@
+.input {
+  font-size: 1.5rem;
+  height: 3.25rem;
+  padding-left: 3.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.input:placeholder-shown {
+  text-overflow: ellipsis;
+}
